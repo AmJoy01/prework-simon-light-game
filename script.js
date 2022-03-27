@@ -83,12 +83,28 @@ function playSingleClue(btn) {
   }
 }
 
+//Speed
+
+function slowSpeed(){
+  
+  
+}
+
+function slowerPlaySingleClue(btn) {
+  if(gamePlaying &&& ){
+    lightButton(btn);
+    playTone(btn,clueHoldTime * 2);
+    setTimeout(clearButton,clueHoldTime * 2,btn);
+  }
+}
+
+
 function guess(btn) {
   console.log("user guessed: " + btn);
   if (!gamePlaying) {
     return;
   }
-  if (pattern[Math.floor(Math.random() * )] == btn) {
+   if (pattern[guessCounter] == btn) {
     if (guessCounter == progress) {
       if (progress == pattern.length - 1) {
         winGame();
