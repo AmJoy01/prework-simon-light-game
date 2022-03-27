@@ -49,6 +49,11 @@ button {
   margin-top: 20px;
 }
 
+#slowBtn:active, #slowBtn.lit{
+  background: black;
+  color: white;
+}
+
 #button1 {
   background: lightgreen;
 }

@@ -86,12 +86,11 @@ function playSingleClue(btn) {
 //Speed
 
 function slowSpeed(){
-  
-  
+  document.getElementById("slowBtn").classList.add("lit");
 }
 
 function slowerPlaySingleClue(btn) {
-  if(gamePlaying &&& ){
+  if(gamePlaying && slowSpeed()){
     lightButton(btn);
     playTone(btn,clueHoldTime * 2);
     setTimeout(clearButton,clueHoldTime * 2,btn);
