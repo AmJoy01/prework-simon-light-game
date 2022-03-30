@@ -4,7 +4,7 @@
 
 Submitted by: <b>Amber Lewis</b>
 
-Time spent: 3 hours spent in total
+Time spent: 5 hours spent in total
 
 Link to project: <a href="https://glitch.com/edit/#!/simon-light-game?path=index.html%3A1%3A0">glitch link</a>
 
@@ -52,7 +52,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-   W3Schools, Google for the color codes, <a href="http://colormind.io/">Colormind</a>
+   W3Schools, Google for the color codes, <a href="http://colormind.io/">Colormind</a>, <a href="https://en.wikipedia.org/wiki/Piano_key_frequencies">Piano key frequencies</a>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
    [YOUR ANSWER HERE]
