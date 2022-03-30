@@ -14,36 +14,15 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-    
     <!-- this is the start of content -->
     <h1>Light and Sound Memory Game</h1>
     <p>Welcome to the game! Repeat back the pattern by pressing buttons.</p>
-<!--     <div id="difficulty">
-      <p>
-      Pick the difficulty you want and then press Start!
-      </p>
-    <button id="easyBtn" onclick="easyMode()">Easy</button>
-    <button id="medBtn" onclick="medMode()">Medium</button>
-    <button id="hardBtn" onclick="hardMode()">Hard</button>
-    
-    </div> -->
-    
-<!--     <div id="speed">
-      <p>
-        You can adjust the speed!
-      </p>
-      <button id="slowBtn" onclick="slowSpeed()">Slower</button>
-      <button id="normalBtn" onclick="normalSpeed()">Normal</button>
-      <button id="fasBtn" onclick="fastSpeed()">Faster</button>
-    </div> -->
-    
-    <button id="startBtn" onclick="startGame()">Start</button>   
-    
-    
+
+    <button id="startBtn" onclick="startGame()">Start!</button>
 
     <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
 
-    <div id="gameButtonArea">
+    <div id="gameButtonArea" class="gameButtonArea">
       <button
         id="button1"
         onclick="guess(1)"
@@ -68,7 +47,18 @@
         onmousedown="startTone(4)"
         onmouseup="stopTone()"
       ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+      ></button>
     </div>
   </body>
 </html>
-

@@ -1,13 +1,29 @@
 body {
-  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-family: cursive;
   margin: 2em;
   position: fixed;
-  background-color: slategrey;
-  color: white;
+  background-color: #327761;
+  color: #fbf9f9;
 }
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: cursive;
 }
+
+#startBtn {
+  background-color: #93cbab;
+  color: #fbf9f9;
+  font-family: cursive;
+  font-size: medium;
+}
+
+#stopBtn {
+  background-color: #fbf9f9;
+  color: #93cbab;
+  font-family: cursive;
+  font-size: medium;
+}
+
 button {
   padding: 10px;
   border-radius: 10px;
@@ -20,38 +36,6 @@ button {
 
 .hidden {
   display: none;
-}
-/* Difficulty */
-/* #easyBtn:active,
-#easyBtn.lit {
-  background: green;
-  color: white;
-}
-
-#medBtn:active,
-#medBtn.lit {
-  background: blue;
-  color: white;
-}
-
-#hardBtn:active,
-#hardBtn.lit {
-  background: red;
-  color: white;
-}
- */
-/* Start Button */
-#startBtn {
-  margin-top: 20px;
-}
-
-#stopBtn{
-  margin-top: 20px;
-}
-
-#slowBtn:active, #slowBtn.lit{
-  background: black;
-  color: white;
 }
 
 #button1 {
@@ -69,6 +53,15 @@ button {
 #button4 {
   background: lightyellow;
 }
+
+#button5 {
+  background: #cbc3e3;
+}
+
+#button6 {
+  background: #ffd580;
+}
+
 #button1:active,
 #button1.lit {
   background: green;
@@ -87,4 +80,14 @@ button {
 #button4:active,
 #button4.lit {
   background: yellow;
+}
+
+#button5:active,
+#button5.lit {
+  background: purple;
+}
+
+#button6:active,
+#button6.lit {
+  background: orange;
 }
