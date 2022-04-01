@@ -40,13 +40,13 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![x] <a href="http://g.recordit.co/fxyetSUMw8.gif">GIF</a>
-![] <a href="http://g.recordit.co/xBPNKsEiHl.gif">Modified GIF</a>
-![] <a href="http://g.recordit.co/S0pV6MpulY.gif">3Strikes Gif</a>
-![](gif4-link-here)
+![x] <a href="http://g.recordit.co/xBPNKsEiHl.gif">Modified GIF</a>
+![x] <a href="http://g.recordit.co/S0pV6MpulY.gif">3Strikes Gif</a>
 
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+
    W3Schools, Google for the color codes, <a href="http://colormind.io/">Colormind</a>, <a href="https://en.wikipedia.org/wiki/Piano_key_frequencies">Piano key frequencies</a>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
@@ -62,6 +62,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
    Do you draw out what you want your website to look like before coding?
+   How would you describe this programs coding work style?
+   What kind of goals do you have in mind for us interns?
+   What web development projects will we be working on?
    Why are we using HTML/CSS, and JavaScript for this project and not any of the other coding languages?
    What other coding languages are companies utilizing and want their web developers to use?
 
@@ -75,7 +78,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording]<a href="https://drive.google.com/drive/u/0/folders/1AJWnDOuj6PkuLkvFUOBoNAvzWDay3Jii">Video Link</a>
+[My 5-minute Interview Recording]<a href="https://youtu.be/w4bsQz392pw">Video Link</a>
 
 ## License
 
