@@ -6,7 +6,7 @@ Submitted by: <b>Amber Lewis</b>
 
 Time spent: 5 hours spent in total
 
-Link to project: <a href="https://glitch.com/edit/#!/simon-light-game?path=index.html%3A1%3A0">glitch link</a>
+Link to project: <a href="https://glitch.com/edit/#!/simon-light-game?path=index.html%3A1%3A0">glitch code link</a> and <a href="https://simon-light-game.glitch.me">glitch project link</a>
 
 ## Required Functionality
 
