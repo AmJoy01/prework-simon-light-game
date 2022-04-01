@@ -13,6 +13,8 @@ var volume = 0.5; // must be between 0.0 and 1.0
 var guessCounter = 0;
 var strikes = 0;
 
+let strikeAmount = document.querySelector("#strike");
+
 function randomize(pattern) {
   for (var i = pattern.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
@@ -28,6 +30,7 @@ function startGame() {
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
   randomize(pattern);
+  strikeAmount.innerHTML = `<p>Strike: ${0}</p>`;
   playClueSequence();
 }
 
@@ -39,7 +42,8 @@ function stopGame() {
 
 function loseGame() {
   stopGame();
-  alert("3 Strikes!! Game Over. You lost.");
+  alert("3 Strikes!! Game Over. Try again");
+  strikes = 0;
 }
 
 function winGame() {
@@ -112,10 +116,12 @@ function guess(btn) {
       guessCounter++;
     }
   } else if (pattern[guessCounter] != btn && strikes == 2) {
+    ++strikes;
+    strikeAmount.innerHTML = `<p>Strike: ${strikes}</p>`;
     loseGame();
   } else {
     ++strikes;
-    alert("That's Strike " + strikes + "!");
+    strikeAmount.innerHTML = `<p>Strike: ${strikes}</p>`;
     playClueSequence();
   }
 }
